@@ -1,0 +1,65 @@
+.self_msg{
+color: blue;
+text-align: right;
+padding-right: 10px;
+}
+
+.blue{
+	color:blue;
+}
+
+.error{
+	color:red;
+}
+
+.notice{
+	color:orange;
+}
+
+
+.message{
+	display: block;
+	font-size: 9px;
+}
+
+#chat_thread{
+	width:60%;
+	height: 200px;
+	overflow-y : scroll;
+	overflow-x: hidden;
+	word-wrap: break-word;
+	display:inline-block;
+
+	background-color:#FFFFFA;
+	 -moz-box-shadow: 4px 4px 10px #888;  
+  -webkit-box-shadow: 4px 4px 10px #888;  
+  box-shadow:4px 4px 6px #888;
+}
+
+#chat_message{
+	display:inline-block;
+	width : 60%;
+	height: 50px;
+}
+
+#send_button{
+	display:inline-block;
+	vertical-align:bottom;
+}
+
+#user_list{
+	display:inline-block;
+	width: 10%;
+	margin-left:5%;
+	margin-right: 5%;
+	vertical-align:top;
+}
+
+#serverMessages{
+		margin-top: 10px;
+		margin-bottom: 10px;
+}
+
+.little{
+	font-size: 0.9em;
+}
